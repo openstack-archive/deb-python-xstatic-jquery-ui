@@ -1,4 +1,4 @@
-XStatic-jquery-ui
+XStatic-jquery_ui
 -----------------
 
 jquery-ui javascript library packaged for setuptools (easy_install) / pip.
