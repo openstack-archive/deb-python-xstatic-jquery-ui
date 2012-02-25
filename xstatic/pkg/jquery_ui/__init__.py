@@ -4,7 +4,7 @@ XStatic resource package
 See package 'XStatic' for documentation and basic tools.
 """
 
-DISPLAY_NAME = 'jquery-ui' # official name, upper/lowercase allowed, no spaces
+DISPLAY_NAME = 'jquery_ui' # official name, upper/lowercase allowed, no spaces
 PACKAGE_NAME = 'XStatic-%s' % DISPLAY_NAME # name used for PyPi
 
 NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
@@ -28,7 +28,7 @@ MAINTAINER = 'Reimar Bauer'
 MAINTAINER_EMAIL = 'rb.proj@googlemail.com'
 
 # this refers to the project homepage of the stuff we packaged:
-HOMEPAGE = 'http://arshaw.com/fullcalendar/'
+HOMEPAGE = 'http://jqueryui.com/'
 
 # this refers to all files:
 LICENSE = '(same as %s)' % DISPLAY_NAME
