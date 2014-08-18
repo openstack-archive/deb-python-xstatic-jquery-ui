@@ -1,0 +1,5 @@
+python-xstatic-jquery-ui (1.10.1.1+debian+dfsg1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 15 Aug 2014 16:43:57 +0800
