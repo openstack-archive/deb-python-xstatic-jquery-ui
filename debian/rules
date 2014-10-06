@@ -24,6 +24,7 @@ override_dh_install:
 		ln -s /usr/share/javascript/jquery-ui/jquery-ui.js 				$$i/jquery-ui.js ; \
 		ln -s /usr/share/javascript/jquery-ui/jquery-ui.min.js				$$i/jquery-ui.min.js ; \
 		ln -s /usr/share/javascript/jquery-ui/css/smoothness/jquery-ui.css 		$$i/jquery-ui.css ; \
+		ln -s . $$i/ui ; \
 	done
 	rm -rf $(CURDIR)/debian/python*-xstatic-jquery-ui/usr/lib/python*/dist-packages/*.pth
 
