@@ -17,7 +17,10 @@ Homepage: http://jqueryui.com/
 Package: python-xstatic-jquery-ui
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libjs-jquery-ui, python-xstatic, ${misc:Depends}, ${python:Depends}
+Depends: libjs-jquery-ui (>= 1.10.1),
+         python-xstatic,
+         ${misc:Depends},
+         ${python:Depends}
 Description: JQuery UI XStatic support - Python 2.x
  XStatic is a packaging standard to package external (often 3rd party) static
  files as a Python package, so they are easily usable on all operating systems,
@@ -45,7 +48,10 @@ Description: JQuery UI XStatic support - Python 2.x
 Package: python3-xstatic-jquery-ui
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libjs-jquery-ui, python3-xstatic, ${misc:Depends}, ${python3:Depends}
+Depends: libjs-jquery-ui (>= 1.10.1),
+         python3-xstatic,
+         ${misc:Depends},
+         ${python3:Depends}
 Description: JQuery UI XStatic support - Python 3.x
  XStatic is a packaging standard to package external (often 3rd party) static
  files as a Python package, so they are easily usable on all operating systems,

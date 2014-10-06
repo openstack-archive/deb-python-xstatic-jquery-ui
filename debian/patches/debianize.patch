@@ -2,7 +2,7 @@ Description: Debianize
  Using files from libjs-jquery-ui instead of the embedded version.
 Author: Thomas Goirand <zigo@debian.org>
 Forwarded: not-needed
-Last-Update: 2014-08-18
+Last-Update: 2014-10-06
 
 --- python-xstatic-jquery-ui-1.10.1.1+debian+dfsg1.orig/xstatic/pkg/jquery_ui/__init__.py
 +++ python-xstatic-jquery-ui-1.10.1.1+debian+dfsg1/xstatic/pkg/jquery_ui/__init__.py
@@ -15,15 +15,3 @@ Last-Update: 2014-08-18
                     # version number
  BUILD = '1'  # our package build number, so we can release new builds
               # with fixes for xstatic stuff.
-@@ -34,9 +34,9 @@ HOMEPAGE = 'http://jqueryui.com/'
- LICENSE = '(same as %s)' % DISPLAY_NAME
- 
- from os.path import join, dirname
--BASE_DIR = join(dirname(__file__), 'data')
-+#BASE_DIR = join(dirname(__file__), 'data')
- # linux package maintainers just can point to their file locations like this:
--#BASE_DIR = '/usr/share/javascript/jquery_ui'
-+BASE_DIR = '/usr/share/javascript/jquery-ui'
- 
- LOCATIONS = {}
- 

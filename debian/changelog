@@ -1,3 +1,9 @@
+python-xstatic-jquery-ui (1.10.1.1+debian+dfsg1-3) unstable; urgency=medium
+
+  * Manages symlinks to libjs-jquery-ui correctly.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 06 Oct 2014 16:18:28 +0800
+
 python-xstatic-jquery-ui (1.10.1.1+debian+dfsg1-2) unstable; urgency=medium
 
   * Fixed licensing information as per FTP master suggestion.
