@@ -21,10 +21,13 @@ override_dh_install:
 		mkdir -p $(CURDIR)/debian/python3-xstatic-jquery-ui/usr/lib/python3/dist-packages/xstatic/pkg/jquery_ui/data ; \
 	done
 	set -ex ; for i in $(CURDIR)/debian/python*-xstatic-jquery-ui/usr/lib/python*/dist-packages/xstatic/pkg/jquery_ui/data ; do \
+		mkdir -p $$i/ui ; \
 		ln -s /usr/share/javascript/jquery-ui/jquery-ui.js 				$$i/jquery-ui.js ; \
+		ln -s /usr/share/javascript/jquery-ui/jquery-ui.js				$$i/ui/jquery-ui.js ; \
 		ln -s /usr/share/javascript/jquery-ui/jquery-ui.min.js				$$i/jquery-ui.min.js ; \
+		ln -s /usr/share/javascript/jquery-ui/jquery-ui.min.js				$$i/ui/jquery-ui.min.js ; \
 		ln -s /usr/share/javascript/jquery-ui/css/smoothness/jquery-ui.css 		$$i/jquery-ui.css ; \
-		ln -s . $$i/ui ; \
+		ln -s /usr/share/javascript/jquery-ui/css/smoothness/jquery-ui.css 		$$i/ui/jquery-ui.css ; \
 	done
 	rm -rf $(CURDIR)/debian/python*-xstatic-jquery-ui/usr/lib/python*/dist-packages/*.pth
 
