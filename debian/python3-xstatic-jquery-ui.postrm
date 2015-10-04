@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+dpkg-maintscript-helper symlink_to_dir \
+	/usr/lib/python3/dist-packages/xstatic/pkg/jquery_ui/data/ui \
+	/usr/lib/python3/dist-packages/xstatic/pkg/jquery_ui/data \
+	1.10.1.1+debian+dfsg1-4 \
+	python3-xstatic-jquery-ui -- "$@"
+
+exit 0

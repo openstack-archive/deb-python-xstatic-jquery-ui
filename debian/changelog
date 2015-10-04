@@ -1,3 +1,10 @@
+python-xstatic-jquery-ui (1.10.1.1+debian+dfsg1-5) unstable; urgency=medium
+
+  * Using "dpkg-maintscript-helper symlink_to_dir" to upgrade prior version
+    1.10.1.1+debian+dfsg1-4 (Closes: #799940).
+
+ -- Thomas Goirand <zigo@debian.org>  Sun, 04 Oct 2015 23:06:19 +0200
+
 python-xstatic-jquery-ui (1.10.1.1+debian+dfsg1-4) unstable; urgency=medium
 
   * Really manages symlinks to libjs-jquery-ui correctly.
