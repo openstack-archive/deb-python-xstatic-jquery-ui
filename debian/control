@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 9),
                python3-setuptools
 Build-Conflicts: python-xstatic, python3-xstatic
 Standards-Version: 3.9.5
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-xstatic-jquery-ui.git/
-Vcs-Git: https://anonscm.debian.org/git/openstack/python-xstatic-jquery-ui.git
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-python-xstatic-jquery-ui?h=debian%2Fnewton
+Vcs-Git: https://git.openstack.org/openstack/deb-python-xstatic-jquery-ui -b debian/newton
 Homepage: http://jqueryui.com/
 
 Package: python-xstatic-jquery-ui
